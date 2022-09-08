@@ -1,0 +1,56 @@
+body
+{
+    margin: 0;
+}
+.main-div
+{
+    background-color: aqua;
+    display: flex;
+    height: 100vh;
+}
+
+.left-part
+{
+    max-width: 500px;
+    /* flex:0.3; */
+    
+    background: #3AD09A;
+}
+.in-left-part
+{
+    
+}
+
+.img-logo
+{
+    position: absolute;
+    left: 5%;
+    top: 7%;
+}
+.img-human
+{
+    /* position: absolute;/ */
+    /* left: 0%; */
+    /* bottom: 3.62%; */
+    /* width */
+}
+
+.first-sentence
+{
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    top:20%;
+
+    /* height: 500px;
+    width: 500px; */
+}
+
+.right
+{
+    background-color: white;
+    width:100%;
+    /* width:calc(100%-500px); */
+    /* flex:0.7; */
+}
