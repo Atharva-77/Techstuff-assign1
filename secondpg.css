@@ -167,4 +167,190 @@ body
 
     padding: 10px 16px;
 }
+#parent-scene-div
+{
+    margin-right: 0px;
+}
+/* -----------------------------------MEDIA QUERY-------------------- */
+@media (max-width:765px)
+{
+    .img-logo-s {
+        margin-top: 42px;
+        margin-left: 10%;
+        max-height: 35px;
+    }
+    .left-sidebar-div
+    {
+        margin-left: 10%;
+    }
+    .right-second-sentence-s
+    {
+        margin-right: 0px;
+    }
+}
 
+@media (max-width:640px)
+{
+    .left-sidebar-div
+    {
+        margin-left: 5%;
+    }
+
+    .parent-build-div
+    {
+        margin-right: 9px;
+    }
+   .build-div
+   {
+        margin-right: 25px;
+        margin-left: 25px;
+   }
+
+}
+
+
+@media (max-width:580px)
+{
+    .img-logo-s {
+        margin-top: 42px;
+        margin-left: 6%;
+        max-height: 30px;
+    }
+    .left-sidebar-div
+    {
+        margin-left: 2%;
+    }
+
+    .parent-build-div
+    {
+        margin-right: 9px;
+    }
+   .build-div
+   {
+         margin-right: 20px;
+         margin-left: 20px;
+         padding: 10px 25px;
+   }
+    #scene-div
+    {
+        padding: 10px 10px;
+    }
+    #img-scene-id
+    {
+        height:99px;
+        width: 92px;
+    }
+}
+
+@media (max-width:500px)
+{
+    .build-div
+    {
+         padding: 10px 18px;
+    }
+    #scene-div
+    {
+        padding: 10px 3px;
+    }
+    .right-second-sentence-s
+    {
+       text-align: center;
+    }
+
+    .left-sidebar-arrow
+    {
+        right: 10px;
+    }
+}
+
+
+
+@media (max-width:448px)
+{
+    .icon-img
+    {
+        margin-right: 6px;
+    }
+    .img-logo-s
+    {
+        margin-left: 2px;
+        max-height: 27px;
+    }
+    .left-sidebar-div
+    {
+        margin-left: 2px;
+    }
+    .left-sidebar-arrow
+    {
+        right: 5px;
+    }
+    .build-div
+    {
+         margin-right: 15px;
+         margin-left: 15px;
+         padding: 10px 13px;
+    }
+
+    #scene-div
+    {
+        padding: 10px 0px;
+    }
+}
+
+
+
+@media (max-width:400px)
+{
+    .icon-img
+    {
+        margin-right: 6px;
+    }
+    .img-logo-s
+    {
+        margin-left: 2px;
+        max-height: 25px;
+    }
+    .left-sidebar-div
+    {
+        margin-left: 2px;
+        align-items: center;
+    }
+    .left-sidebar-text
+    {
+        font-size: small;
+
+    }
+    .parent-build-div {
+        margin-right: 5px;
+    }
+    
+    .left-sidebar-arrow
+    {
+        right: 5px;
+    }
+    .build-div
+    {
+         margin-right: 15px;
+         margin-left: 15px;
+         margin-top: 33px;
+         padding: 10px 13px;
+    }
+    .delware-text
+    {
+        margin-bottom: 25px;
+    }
+    #scene-div
+    {
+        padding: 10px 0px;
+    }
+
+    #img-scene-id
+    {
+        height:95px;
+        width: 85px;
+    }
+    .right-first-sentence-s
+    {
+        text-align: center;
+    }
+}
