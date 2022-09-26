@@ -52,14 +52,17 @@ body
 }
 .first-sentence
 {
+    font-family: 'Poppins';
+    font-style: normal;
+    line-height: 40px;
     color: white;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 600;
     /* position: absolute;
     top:20%; */
 
     /* max-width: 35%; */
-    overflow: auto;
+    /* overflow: auto; */
     /* padding-left: 13px; */
     /* transform: translateX(5%); */
     margin-top: 14%;
@@ -97,8 +100,10 @@ body
     /* align-items: center; */
 
     color: black;
-    font-size: 32px;
-    font-weight: 600;
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
    
     /* margin-top: 32%;
     margin-left: 21%; */
@@ -110,7 +115,7 @@ body
     display: flex;
     justify-content: center;
     margin-top: 5px;
-    margin-right: 37px;
+    margin-right: 57px;
     /* align-items: center; */
 
     color: gray;
@@ -136,10 +141,10 @@ body
     display: flex;
     justify-content: center;
     /* margin-left: 50px; */
-    margin-right: 25px;
+    /* margin-right: 25px; */
     /* margin: auto; */
     /* max-width: 200px;*/
-    margin-bottom: 10px;
+    margin-bottom: 17px;
     /* background-color: white; */
 }
 
@@ -147,16 +152,18 @@ body
 {
     display: flex;
     justify-content: center;
-    margin-right: 25px;
+    /* margin-right: 25px; */
 
 }
 
 .LLC-div
 {
     display: flex;
-    border: 2px solid #3AD09A;
-    padding: 10px;
-    padding-right: 155px;
+    /* border: px solid #3AD09A; */
+    border-radius: 7px;
+    padding: 14px;
+    padding-right: 213px;
+    padding-left: 19px;
     justify-content: center;
     /* margin: auto; */
     /* margin-left: 50px; */
@@ -168,9 +175,11 @@ body
 .Corpo-div
 {
     display: flex;
-    border: 2px solid #3AD09A;
-    padding: 10px;
-    padding-right: 144px;
+    /* border: 2px solid #3AD09A; */
+    border-radius: 7px;
+    padding: 14px;
+    padding-right: 193px;
+    padding-left: 13px;
     justify-content: center;
     background-color: white;
     
@@ -183,25 +192,37 @@ body
 .img-LLC
 {
     width: 21.28px;
-    height: 20px;
+    height: 23px;
 
     border: 2px solid #3AD09A;
     padding: 5px;
     margin-right: 10px;
 }
 
+.img-Corpo
+{
+    width: 49.28px;
+    height: 39px;
+
+    /* border: 2px solid #3AD09A; */
+    /* padding: 5px; */
+    margin-right: 8px;
+}
+
+
 .LLC-top-text
 {
+    font-family: 'Poppins';
     font-size: small;
     font-weight: 600;
-    margin-bottom: 3px;
+    margin-bottom: 6px;
     color: black;
 }
 
 .LLC-bottom-text
 {
     font-size: small;
-    color: black;
+    color: gray;
     /* font-weight: 600; */
 }
 /* .Text-LLC-div
@@ -242,6 +263,11 @@ body
     font-weight: 600;
 }
 
+.Text-LLC-div
+{
+    font-family: 'Poppins';
+}
+
 /* -----------------------------------MEDIA QUERY-------------------- */
 @media (max-width:765px)
 {
@@ -251,6 +277,123 @@ body
         max-height: 35px;
     }
 }
+
+
+@media (max-width:650px)
+{
+
+    .img-logo {
+        margin-top: 42px;
+        margin-left: 6%;
+        max-height: 30px;
+    }
+
+    .first-sentence
+    {
+        margin-left: 10%;
+    
+    }
+    .second-sentence
+    {
+        margin-left: 10%;
+
+    }
+    .third-sentence
+    {
+        margin-left: 10%;
+
+    }
+
+    .right-first-sentence
+    {
+      text-align: center;
+    }
+
+    .right-second-sentence
+    {
+        text-align: center;
+        margin-right: 50px;
+
+    }
+
+    .LLC-parent-div
+    {
+        margin-right: 0px;
+    }
+    .Corpo-parent-div
+    {
+        margin-right: 0px;
+    }
+
+    .LLC-div
+    {
+        padding-right: 200px;
+    }
+    .Corpo-div
+    {
+        padding-right: 182px;
+    }
+
+}
+
+@media (max-width:600px)
+{
+
+    .img-logo {
+        margin-top: 42px;
+        margin-left: 6%;
+        max-height: 30px;
+    }
+
+    .first-sentence
+    {
+        margin-left: 10%;
+    
+    }
+    .second-sentence
+    {
+        margin-left: 10%;
+
+    }
+    .third-sentence
+    {
+        margin-left: 10%;
+
+    }
+
+    .right-first-sentence
+    {
+      text-align: center;
+    }
+
+    .right-second-sentence
+    {
+        text-align: center;
+        margin-left: 55px;
+        margin-right: 20px;
+
+    }
+
+    .LLC-parent-div
+    {
+        margin-right: 0px;
+    }
+    .Corpo-parent-div
+    {
+        margin-right: 0px;
+    }
+
+    .LLC-div
+    {
+        padding-right: 200px;
+    }
+    .Corpo-div
+    {
+        padding-right: 182px;
+    }
+
+}
+
 
 @media (max-width:580px)
 {
@@ -285,7 +428,8 @@ body
     .right-second-sentence
     {
         text-align: center;
-        margin-right: 0px;
+        margin-left: 52px;
+        margin-right: 26px;
 
     }
 
