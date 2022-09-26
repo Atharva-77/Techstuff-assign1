@@ -162,7 +162,7 @@ body
     /* border: px solid #3AD09A; */
     border-radius: 7px;
     padding: 14px;
-    padding-right: 213px;
+    padding-right: 197px;
     padding-left: 19px;
     justify-content: center;
     /* margin: auto; */
@@ -187,6 +187,7 @@ body
 .LLC-div:hover, .Corpo-div:hover
 {
     background-color:#e2f3ef;
+    opacity: 1;
 }
 
 .img-LLC
@@ -195,7 +196,8 @@ body
     height: 23px;
 
     border: 2px solid #3AD09A;
-    padding: 5px;
+    padding: 6px;
+    border-radius: 6px;
     margin-right: 10px;
 }
 
@@ -231,7 +233,15 @@ body
 } */
 .right-arrow
 {
-    /* margin-left: 20px; */
+    margin-left: 1131%;
+    margin-top: 11px;
+    opacity: 0;
+    color: #009A63;
+    
+}
+.LLC-div:hover .right-arrow
+{
+    opacity: 1;
 }
 /* span {
     content: "\2192";
@@ -268,7 +278,7 @@ body
     font-family: 'Poppins';
 }
 
-/* -----------------------------------MEDIA QUERY-------------------- */
+/* -----------------------------------MEDIA QUERY-------------------- */ 
 @media (max-width:765px)
 {
     .img-logo {
@@ -523,3 +533,4 @@ body
     }
 
 }
+
