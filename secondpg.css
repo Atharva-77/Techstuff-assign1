@@ -325,7 +325,59 @@ body
         right: 10px;
     }
 }
+.img-div1
+{
+    /* bottom: 0px; */
+    /* position: relative; */
+    /* bottom: 0px; */
+}
+.img-rect-11
+{
+    bottom: 0px;
+    position: absolute;
+    /* transform: matrix(0.69, 0.74, -0.71, 0.69, 0, 0); */
+}
+.img-rect-12
+{
+    bottom: 0px;
+    /* height: 100%;
+    width: 80%; */
+    position: absolute;
+    /* color: blue !important; */
+    /* transform: matrix(0.69, 0.74, -0.71, 0.69, 0, 0); */
+}
 
+.img-map
+{
+    /* right: 10px; */
+    position: absolute;
+    bottom: 132px;
+    left: 157px;
+    
+}
+.img-belowMap
+{
+    position: absolute;
+    bottom: 86px;
+    left: 145px;
+    
+}
+
+.img-left-Reactangle-Map
+{
+    position: absolute;
+    bottom: 63px;
+    left: 148px;
+    
+}
+
+.img-right-Reactangle-Map
+{
+    position: absolute;
+    bottom: 70px;
+    left: 197px;
+    
+}
 
 
 @media (max-width:448px)
