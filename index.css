@@ -92,7 +92,7 @@ body
     flex:0.70;
 }
 
-.right-first-sentence
+.right-heading-sentence
 {
     display: flex;
     justify-content: center;
@@ -110,7 +110,7 @@ body
 
 }
 
-.right-second-sentence
+.right-information-second-sentence
 {
     font-family: 'Poppins';
     display: flex;
@@ -136,7 +136,7 @@ body
         /* background-color: white; */
 }
 
-.LLC-parent-div
+.LLC-parent-text-img-div
 {
     margin-top: 10px;
     display: flex;
@@ -149,7 +149,7 @@ body
     /* background-color: white; */
 }
 
-.Corpo-parent-div
+.Corpo-parent-text-img-div
 {
     display: flex;
     justify-content: center;
@@ -157,7 +157,7 @@ body
 
 }
 
-.LLC-div
+.LLC-text-img-div
 {
     display: flex;
     /* border: px solid #3AD09A; */
@@ -173,7 +173,7 @@ body
     margin-right: 37px; */
     background-color: white;
 }
-.Corpo-div
+.Corpo-text-img-div
 {
     display: flex;
     /* border: 2px solid #3AD09A; */
@@ -185,13 +185,13 @@ body
     background-color: white;
     
 }
-.LLC-div:hover, .Corpo-div:hover
+.LLC-text-img-div:hover, .Corpo-text-img-div:hover
 {
     background-color:#e2f3ef;
     opacity: 1;
 }
 
-.img-LLC
+.LLC-img
 {
     width: 21.28px;
     height: 23px;
@@ -202,7 +202,7 @@ body
     margin-right: 10px;
 }
 
-.img-Corpo
+.Corpo-img
 {
     width: 49.28px;
     height: 39px;
@@ -228,7 +228,7 @@ body
     color: gray;
     /* font-weight: 600; */
 }
-/* .Text-LLC-div
+/* .Text-LLC--div
 {
     margin-right: 10px;;
 } */
@@ -240,7 +240,7 @@ body
     color: #009A63;
     
 }
-.LLC-div:hover .right-arrow
+.LLC-text-img-div:hover .right-arrow
 {
     opacity: 1;
 }
@@ -259,7 +259,7 @@ body
     color: black;
 }
 
-.help-div
+.helping-trouble-div
 {
     float: right;
     margin-right: 50px;
@@ -268,13 +268,13 @@ body
     color: gray;
 }
 
-.help-span
+.helping-trouble-span
 {
     color: #3AD09A;
     font-weight: 600;
 }
 
-.Text-LLC-div
+.LLC-TextWrap-div
 {
     font-family: 'Poppins';
 }
@@ -315,32 +315,32 @@ body
 
     }
 
-    .right-first-sentence
+    .right-heading-sentence
     {
       text-align: center;
     }
 
-    .right-second-sentence
+    .right-information-second-sentence
     {
         text-align: center;
         margin-right: 50px;
 
     }
 
-    .LLC-parent-div
+    .LLC-parent-text-img-div
     {
         margin-right: 0px;
     }
-    .Corpo-parent-div
+    .Corpo-parent-text-img-div
     {
         margin-right: 0px;
     }
 
-    .LLC-div
+    .LLC-text-img-div
     {
         padding-right: 200px;
     }
-    .Corpo-div
+    .Corpo-text-img-div
     {
         padding-right: 182px;
     }
@@ -372,12 +372,12 @@ body
 
     }
 
-    .right-first-sentence
+    .right-heading-sentence
     {
       text-align: center;
     }
 
-    .right-second-sentence
+    .right-information-second-sentence
     {
         text-align: center;
         margin-left: 55px;
@@ -385,20 +385,20 @@ body
 
     }
 
-    .LLC-parent-div
+    .LLC-parent-text-img-div
     {
         margin-right: 0px;
     }
-    .Corpo-parent-div
+    .Corpo-parent-text-img-div
     {
         margin-right: 0px;
     }
 
-    .LLC-div
+    .LLC-text-img-div
     {
         padding-right: 200px;
     }
-    .Corpo-div
+    .Corpo-text-img-div
     {
         padding-right: 182px;
     }
@@ -431,12 +431,12 @@ body
 
     }
 
-    .right-first-sentence
+    .right-heading-sentence
     {
       text-align: center;
     }
 
-    .right-second-sentence
+    .right-information-second-sentence
     {
         text-align: center;
         margin-left: 52px;
@@ -444,20 +444,20 @@ body
 
     }
 
-    .LLC-parent-div
+    .LLC-parent-text-img-div
     {
         margin-right: 0px;
     }
-    .Corpo-parent-div
+    .Corpo-parent-text-img-div
     {
         margin-right: 0px;
     }
 
-    .LLC-div
+    .LLC-text-img-div
     {
         padding-right: 80px;
     }
-    .Corpo-div
+    .Corpo-text-img-div
     {
         padding-right: 71px;
     }
@@ -520,15 +520,15 @@ body
 
 @media (max-width:448px)
 {
-    .LLC-div
+    .LLC-text-img-div
     {
         padding-right: 36px;
     }
-    .Corpo-div
+    .Corpo-text-img-div
     {
         padding-right: 27px;
     }
-    .help-div
+    .helping-trouble-div
     {
         margin-right: 10px;
     }
