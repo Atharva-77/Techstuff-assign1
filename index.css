@@ -112,6 +112,7 @@ body
 
 .right-second-sentence
 {
+    font-family: 'Poppins';
     display: flex;
     justify-content: center;
     margin-top: 5px;
