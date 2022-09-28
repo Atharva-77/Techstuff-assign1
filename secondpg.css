@@ -2,21 +2,21 @@ body
 {
     margin: 0;
 }
-.main-div-secondpg
+.main-Container
 {
     /* background-color: aqua; */
     display: flex;
     height: 100vh;
 }
 
-.left-part-secondPg
+.left-part
 {
     /* max-width: 50%   ; */
     flex:0.30;
     
     /* background-color: #f4f6f8; */
 }
-.right-part-secondPg
+.right-part
 {
     /* max-width: 50%   ; */
     flex:0.70;
@@ -24,24 +24,30 @@ body
     background-color: #f4f6f8;
 }
 
-.UpperDiv-Wrapp-parent-text-img
+.list-root
 {
     display: flex;
     justify-content: center;
 }
-.parent-left-sidebar-text-img-div
+.list-container
 {
     /* display: block; */
+    
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    margin-top: 22px;
+
 }
 
-.left-sidebar-text-img-div
+.list
 {
     display: flex;
     /* justify-content: center; */
     /* margin-left: 20%; */
     /* margin-top: 50px; */
-    padding: 20px;
-    position: relative;
+    /* padding: 20px; */
+    /* position: relative; */
   
 }
 
@@ -75,7 +81,7 @@ body
 }
 .left-sidebar-arrow
 {
-    position: absolute;
+    /* position: absolute; */
     top:15px;
     right: -71px;
     font-size: 25px;
@@ -98,7 +104,7 @@ body
     font-weight: 600;
 }
 
-.right-heading-sentence-secondPg
+.right-heading-sentence
 {
     display: flex;
     justify-content: center;
@@ -115,7 +121,7 @@ body
 
 }
 
-.right-information-sentence-secondPg
+.right-information-sentence
 {
     display: flex;
     justify-content: center;
@@ -187,6 +193,17 @@ body
     height:128px;
     display: none;
     /* opacity: 0; */
+}
+
+.text-icon-container
+{
+    display: flex;
+    
+}
+#state-arrow-container
+{
+    display: flex;
+    justify-content: space-between;
 }
 
 /* 
@@ -300,12 +317,18 @@ body
     text-decoration: none;
 }
 
+.text-arrow
+{
+    color:gray;
+    
+}
+
 
 /* -----------------------------------MEDIA QUERY-------------------- */
 
 @media (max-width:1428px)
 {
-    .right-heading-sentence-secondPg
+    .right-heading-sentence
     {
 
         margin-right: 15%;
@@ -314,7 +337,7 @@ body
 }
 @media (max-width:1350px)
 {
-    .right-heading-sentence-secondPg
+    .right-heading-sentence
     {
 
         margin-right: 137px;
@@ -323,7 +346,7 @@ body
 }
 @media (max-width:1200px)
 {
-    .right-heading-sentence-secondPg
+    .right-heading-sentence
     {
 
         margin-right: 17%;
@@ -379,7 +402,7 @@ body
 
 @media (max-width:1095px)
 {
-    .right-heading-sentence-secondPg
+    .right-heading-sentence
     {
 
         margin-right: 160px;
@@ -489,17 +512,17 @@ body
         margin-left: 10%;
         max-height: 35px;
     }
-    .left-sidebar-text-img-div
+    .list
     {
         margin-left: 10%;
     }
-    .right-heading-sentence-secondPg
+    .right-heading-sentence
     {
 
         margin-right: 118px;
 
     }
-    .right-information-sentence-secondPg
+    .right-information-sentence
     {
         margin-right: 0px;
     }
@@ -507,7 +530,7 @@ body
 
 @media (max-width:640px)
 {
-    .left-sidebar-text-img-div
+    .list
     {
         margin-left: 5%;
     }
@@ -574,7 +597,7 @@ body
         margin-left: 6%;
         max-height: 30px;
     }
-    .left-sidebar-text-img-div
+    .list
     {
         margin-left: 2%;
     }
@@ -619,13 +642,13 @@ body
         height:99px;
         width: 92px;
     }
-    .right-heading-sentence-secondPg
+    .right-heading-sentence
     {
 
         margin-right: 0px;
 
     }
-    .right-information-sentence-secondPg
+    .right-information-sentence
     {
 
         margin-left: 62px;
@@ -644,7 +667,7 @@ body
     {
         padding: 10px 3px;
     }
-    .right-information-sentence-secondPg
+    .right-information-sentence
     {
        text-align: center;
        margin-left: 15px;
@@ -668,7 +691,7 @@ body
         margin-left: 2px;
         max-height: 27px;
     }
-    .left-sidebar-text-img-div
+    .list
     {
         margin-left: 2px;
     }
@@ -702,7 +725,7 @@ body
         margin-left: 2px;
         max-height: 25px;
     }
-    .left-sidebar-text-img-div
+    .list
     {
         margin-left: 2px;
         align-items: center;
@@ -741,7 +764,7 @@ body
         height:95px;
         width: 85px;
     }
-    .right-heading-sentence-secondPg
+    .right-heading-sentence
     {
         text-align: center;
     }
